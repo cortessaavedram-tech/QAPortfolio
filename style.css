@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: rgb(7, 167, 153);
+  background-color: #093c53;
   color: white;
   padding: 5rem;
   text-align: center;
@@ -49,6 +49,7 @@ nav ul li {
 h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  color: #093c53;
 }
 
 p {
@@ -57,8 +58,8 @@ p {
 }
 
 a {
-  color: #02524e;
-  text-decoration: none;
+  color: #6d92d8;
+  
 }
 
 a:hover {
@@ -72,8 +73,15 @@ section {
 h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #34495e;
+  color: #0c407c;
 }
+
+h3 {
+  color:  #0c407c;
+}
+
+
+
 
 /* FORMULARIO */
 form {
