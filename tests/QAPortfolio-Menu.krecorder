@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>QAPortfolio-Menu</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Visit all the links of the menu</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cortessaavedram-tech.github.io/QAPortfolio/<datalist><option>https://cortessaavedram-tech.github.io/QAPortfolio/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=aboutmemenu<datalist><option>id=aboutmemenu</option><option>link=About me</option><option>xpath=//a[contains(text(),'About me')]</option><option>xpath=//a[@id='aboutmemenu']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Projects'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Education'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='About me']/parent::*</option><option>xpath=//a[contains(@href, '#aboutme')]</option><option>xpath=//a</option><option>css=#aboutmemenu</option></datalist></td><td></td></tr>
+<tr><td>assertLocation</td><td>https://cortessaavedram-tech.github.io/QAPortfolio/#aboutme<datalist><option>https://cortessaavedram-tech.github.io/QAPortfolio/#aboutme</option><option>https://cortessaavedram-tech.github.io/QAPortfolio/#aboutme</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=projectsmenu<datalist><option>id=projectsmenu</option><option>link=Projects</option><option>xpath=//a[contains(text(),'Projects')]</option><option>xpath=//a[@id='projectsmenu']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='About me'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Education'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='Projects']/parent::*</option><option>xpath=//a[contains(@href, '#projects')]</option><option>xpath=//li[2]/a</option><option>css=#projectsmenu</option></datalist></td><td></td></tr>
+<tr><td>assertLocation</td><td>https://cortessaavedram-tech.github.io/QAPortfolio/#projects<datalist><option>https://cortessaavedram-tech.github.io/QAPortfolio/#aboutme</option><option>https://cortessaavedram-tech.github.io/QAPortfolio/#aboutmehttps://cortessaavedram-tech.github.io/QAPortfolio/#projects</option><option>https://cortessaavedram-tech.github.io/QAPortfolio/#projects</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=menueducacion<datalist><option>id=menueducacion</option><option>link=Education</option><option>xpath=//a[contains(text(),'Education')]</option><option>xpath=//a[@id='menueducacion']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Projects'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='About me'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='MªÁngeles Cortés'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='Education']/parent::*</option><option>xpath=//a[contains(@href, '#education')]</option><option>xpath=//li[3]/a</option><option>css=#menueducacion</option></datalist></td><td></td></tr>
+<tr><td>assertLocation</td><td>https://cortessaavedram-tech.github.io/QAPortfolio/#education<datalist><option>https://cortessaavedram-tech.github.io/QAPortfolio/#aboutme</option><option>https://cortessaavedram-tech.github.io/QAPortfolio/#education</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=menucontacto<datalist><option>id=menucontacto</option><option>link=Contact</option><option>xpath=//a[contains(text(),'Contact')]</option><option>xpath=//a[@id='menucontacto']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Education'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Projects'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='MªÁngeles Cortés'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Contact']/parent::*</option><option>xpath=//a[contains(@href, '#contact')]</option><option>xpath=//li[4]/a</option><option>css=#menucontacto</option><option>id=menucontacto</option></datalist></td><td></td></tr>
+<tr><td>assertLocation</td><td>https://cortessaavedram-tech.github.io/QAPortfolio/#contact<datalist><option>https://cortessaavedram-tech.github.io/QAPortfolio/#aboutme</option><option>https://cortessaavedram-tech.github.io/QAPortfolio/#contact</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>
