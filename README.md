@@ -22,7 +22,7 @@
 ## QA Tests
 This Portfolio includes automated regression testing with **Katalon Studio (Selenium)** of all the main features. 
 
-![Resultados](./tests/testResults.png)
+![Resultados](./tests/)
 
 To execute the tests:
 1. Download the Tests folder
