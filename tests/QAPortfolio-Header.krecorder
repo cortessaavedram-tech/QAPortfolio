@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>QAPortfolio-Header</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Verify header with name and title and visit Github and Linkedin links</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://cortessaavedram-tech.github.io/QAPortfolio/<datalist><option>https://cortessaavedram-tech.github.io/QAPortfolio/</option></datalist></td><td></td></tr>
+<tr><td>echo</td><td>Verify the name in the header<datalist><option>Check the name in the header</option><option>Verify the name in the header</option></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>id=nombre<datalist><option>id=nombre</option><option>xpath=//h1[@id='nombre']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/following::h1[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Education'])[1]/following::h1[1]</option><option>xpath=//*/text()[normalize-space(.)='MªÁngeles Cortés']/parent::*</option><option>xpath=//h1</option><option>css=#nombre</option></datalist></td><td>MªÁngeles Cortés</td></tr>
+<tr><td>echo</td><td>Verify the title in the header<datalist><option>Verify the title in the header</option></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>id=titulo<datalist><option>id=titulo</option><option>xpath=//p[@id='titulo']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='MªÁngeles Cortés'])[1]/following::p[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/following::p[1]</option><option>xpath=//*/text()[normalize-space(.)='Junior QA']/parent::*</option><option>xpath=//p</option><option>css=#titulo</option></datalist></td><td>Junior QA</td></tr>
+<tr><td>echo</td><td>Visit Github link<datalist><option>Visit Github link</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=linkgithub<datalist><option>id=linkgithub</option><option>xpath=//a[@id='linkgithub']</option><option>xpath=//a[contains(@href, 'https://github.com/cortessaavedram-tech/QAPortfolio')]</option><option>xpath=//p[2]/a</option><option>css=#linkgithub</option></datalist></td><td></td></tr>
+<tr><td>assertLocation</td><td>https://github.com/cortessaavedram-tech/QAPortfolio<datalist><option>https://github.com/cortessaavedram-tech/QAPortfolio</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://cortessaavedram-tech.github.io/QAPortfolio/<datalist><option>https://cortessaavedram-tech.github.io/QAPortfolio/</option></datalist></td><td></td></tr>
+<tr><td>echo</td><td>Visit Linkedin link<datalist><option>Visit Linkedin link</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=linklinkedin<datalist><option>id=linklinkedin</option><option>xpath=//a[@id='linklinkedin']</option><option>xpath=//a[contains(@href, 'https://www.linkedin.com/in/mariangelescortes/')]</option><option>xpath=//a[2]</option><option>css=#linklinkedin</option></datalist></td><td></td></tr>
+<tr><td>assertLocation</td><td>https://www.linkedin.com/in/mariangelescortes/<datalist><option>https://www.linkedin.com/in/mariangelescortes/</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>
